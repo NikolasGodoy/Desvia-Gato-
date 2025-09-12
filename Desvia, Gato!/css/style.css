@@ -10,8 +10,9 @@ html {
   height: 100%;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
+
+body   {
+  font-family: "Poppins", sans-serif;
   background-color: #fdfdfd; 
   color: #5a4632; 
   line-height: 1.6;
@@ -19,6 +20,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+h1, h2,h3, h4, h5, h6 {
+  font-family: "Russo One", sans-serif;
+}
+
 
 /* ===== Navbar ===== */
 .navbar {
@@ -134,7 +140,7 @@ h2 {
 
 /* ===== Carrossel ===== */
 .carousel-inner img {
-  height: 400px;
+  height: 365px;
   object-fit: cover;
   border-radius: 12px;
 }
