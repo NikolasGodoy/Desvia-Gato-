@@ -18,39 +18,51 @@
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#">Desvia, Gato!</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#jogo">Jogo</a></li>
-          <li class="nav-item"><a class="nav-link" href="#itens">Itens Colecionáveis</a></li>
-          <li class="nav-item"><a class="nav-link" href="#acoes">Ações do Personagem</a></li>
-          <li class="nav-item"><a class="nav-link" href="#personagem">Personagem</a></li>
-          <li class="nav-item"><a class="nav-link" href="#inimigos">Inimigos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#cenarios">Cenários</a></li>
-          <li class="nav-item"><a class="nav-link" href="#integrantes">Equipe</a></li>
-        </ul>
-      </div>
+ 
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="./images/logoDeitada.png" alt="Desvia, Gato!" class="logo-navbar">
+    </a>
+
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#jogo">Jogo</a></li>
+        <li class="nav-item"><a class="nav-link" href="#itens">Itens Colecionáveis</a></li>
+        <li class="nav-item"><a class="nav-link" href="#acoes">Ações do Personagem</a></li>
+        <li class="nav-item"><a class="nav-link" href="#personagem">Personagem</a></li>
+        <li class="nav-item"><a class="nav-link" href="#inimigos">Inimigos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cenarios">Cenários</a></li>
+        <li class="nav-item"><a class="nav-link" href="#integrantes">Equipe</a></li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <!-- Conteúdo principal -->
-  <main>
-    <header id="home"></header>
+  
 
-    <section id="jogo" class="py-5 mt-4 text-center bg-light">
-      <div class="container">
-        <h1 class="display-5 fw-bold">Desvia, Gato!</h1>
-        <p class="lead mt-3">É um jogo 2D onde o jogador controla um gato na qual deve-se esquivar de objetos e coletar
-          petiscos para progredir de fase.</p>
-        <p class="mb-4">Diferencial: Toda a gameplay se passa em 1 tela com câmera fixa.</p>
-      </div>
-    </section>
+<section id="jogo" class="py-5 mt-4 text-center bg-light">
+  <div class="container">
+    
+    <img src="./images/logo.png" alt="Desvia, Gato!" class="logo-section mb-3">
+
+    <p class="lead mt-3">
+      Desvia, Gato! é o primeiro jogo para celular da franquia, um divertido jogo em 2D no qual o jogador controla um gato que precisa desviar de objetos e coletar petiscos para avançar de fase.
+    </p>
+    <p class="mb-4">
+      Diferencial: Nosso jogo foca em uma premissa simples e hipercasual, onde qualquer tipo de demográfico poderá jogar nosso jogo facilmente.
+    </p>
+  </div>
+</section>
+
 
     <section id="itens" class="py-5 bg-light text-center">
       <div class="container">
@@ -119,7 +131,7 @@
             <div class="col-md-4 col-lg-3">
               <div class="card p-3 h-100 text-center">
                 <img src="./images/enemy-aspirador (1).gif" alt="Robô aspirador" class="img-fluid mx-auto d-block">
-                <h5 class="fw-bold mt-2">Robô A (Nível 1)</h5>
+                <h5 class="fw-bold mt-2">Robô (Nível 1)</h5>
               </div>
             </div>
 
@@ -171,6 +183,48 @@
               </div>
             </div>
 
+            <!-- Papel higiênico -->
+<div class="col-md-4 col-lg-3">
+  <div class="card p-3 h-100 text-center">
+    <img src="./images/enemy-papel.gif" alt="Papel Higiênico" class="img-fluid mx-auto d-block">
+    <h5 class="fw-bold mt-2">Papel Higiênico (Nível 1)</h5>
+  </div>
+</div>
+
+<!-- Caixa de papelão -->
+<div class="col-md-4 col-lg-3">
+  <div class="card p-3 h-100 text-center">
+    <img src="./images/enemy-caixa.gif" alt="Caixa" class="img-fluid mx-auto d-block">
+    <h5 class="fw-bold mt-2">Caixa (Nível 2)</h5>
+  </div>
+</div>
+
+<!-- Bolha -->
+<div class="col-md-4 col-lg-3">
+  <div class="card p-3 h-100 text-center">
+    <img src="./images/enemy-bolha.gif" alt="Bolha" class="img-fluid mx-auto d-block">
+    <h5 class="fw-bold mt-2">Bolha (Nível 3)</h5>
+  </div>
+</div>
+
+<!-- Xícara -->
+<div class="col-md-4 col-lg-3">
+  <div class="card p-3 h-100 text-center">
+    <img src="./images/xicara.gif" alt="Xícara" class="img-fluid mx-auto d-block">
+    <h5 class="fw-bold mt-2">Xícara (Nível 2)</h5>
+  </div>
+</div>
+
+<!-- Carrinho -->
+<div class="col-md-4 col-lg-3">
+  <div class="card p-3 h-100 text-center">
+    <img src="./images/enemy-Carrinho.gif" alt="Carrinho" class="img-fluid mx-auto d-block">
+    <h5 class="fw-bold mt-2">Carrinho (Nível 2)</h5>
+  </div>
+</div>
+
+
+
           </div>
         </div>
       </div>
@@ -189,13 +243,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/carrossel/img1.png" class="d-block w-100 rounded" alt="Nivel 1">
+                <img src="./images/Sala(nivel 1).jpg" class="d-block w-100 rounded" alt="Nivel 1">
               </div>
               <div class="carousel-item">
-                <img src="img/carrossel/img2.png" class="d-block w-100 rounded" alt="Nivel 2">
+                <img src="./images/Quarta(nivel 2).jpg" class="d-block w-100 rounded" alt="Nivel 2">
               </div>
               <div class="carousel-item">
-                <img src="img/carrossel/img3.png" class="d-block w-100 rounded" alt="Nivel 3">
+                <img src="./images/banheiro(nivel3).jpg" class="d-block w-100 rounded" alt="Nivel 3">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
@@ -237,6 +291,7 @@
                 <h6 class="text-muted mb-3">Game Design e Programador</h6>
                 <div class="d-flex justify-content-center gap-2">
                   <a href="https://github.com/GhastEmp" target="_blank" class="btn-nav" rel="noopener">GitHub</a>
+                            <!-- não tem Linkdin -->
                   <a href="https://linkedin.com/in/seuLinkedin" target="_blank" class="btn-nav"
                     rel="noopener">LinkedIn</a>
                 </div>
@@ -269,7 +324,7 @@
     <h4 class="mb-2">Repósitorio</h4>
     <p class="mb-3">Desvia, Gato!</p>
     <div class="d-flex justify-content-center gap-3 flex-wrap">
-      <a href="#" class="btn-footer">GitHub</a>
+      <a href="https://github.com/NikolasGodoy/Desvia-Gato-" class="btn-footer">GitHub</a>
     </div>
     <small class="d-block mt-3">© <span id="year"></span> Desvia, Gato! — Todos os direitos reservados.</small>
   </footer>
